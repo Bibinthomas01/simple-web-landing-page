@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+  }
+  html{
+    min-width: fit-content;
+  }
+  a{
+    color:white;
+    text-decoration: none;
+  }
+  body {
+    background:#000000;
+     color:#fdfdfd;
+  }
+  .main-container{
+   width:100%;
+  }
+  .nav-bar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 100%;
+  }
+  .nav-container{
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: baseline;
+    max-width: 100%;
+    gap: 5rem; 
+  }
+  .nav-child1{
+    font-weight: 400;
+    font-size: 3rem;
+  }
+  .nav-child2{ 
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  .nav-child3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  .nav-child4{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  .parent-container1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    outline: none;
+    padding: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+ }
+  .title{ 
+    font-weight:700; 
+    font-size:3rem;
+    padding-bottom: 1rem;
+   }
+   .title-one{
+     min-width:300px;
+     padding-bottom: 1rem;
+   }
+   header{
+   width:65%; 
+   }
+   .tree {
+   display: flex;
+   flex-wrap: wrap;
+   border-radius: 1.5rem;
+ }
+ .link{
+    padding-top: 1rem;
+    text-decoration: underline;
+   }
+
+
+
+
+
+   .parent-container2{
+    width:100%;
+    padding: 2rem;
+    background-color:#343434;
+ }
+   
+ .child-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-image:url(cam.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+ }
+
+
+
+
+ .child-form1{
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 2rem;
+    border-right:solid #444545 2px;
+    min-width:35%;
+   }
+   .form1-child{
+    padding-top: 3rem;
+    border-bottom: 2px solid#999999;
+    max-width: 75%;
+    min-width: 50%;
+   }
+   .form1{
+    width: 100%;
+    min-width: 50%;
+    }
+    .form1-address{
+        padding-top: 3rem;
+        width: 65%;
+        border-bottom: 2px solid#999999;
+    }
+    .form1-address1{
+        padding-top: 1rem;
+        width: 60%;
+        border-bottom: 2px solid#999999;
+    }
+    .parent-form1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+       }
+       .parent-child{
+        padding-top: 3rem;
+        border-bottom: 2px solid#999999;
+        min-width: 30%;
+       }
+       .parent-child1{
+        padding-top: 3rem;
+        border-bottom: 2px solid#999999;
+        width:22%;
+       }
+       #city{
+        width: 100%;
+       }
+       .zip{
+        width: 100%;
+       }
+       .form1-child1{
+        padding-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        opacity: .5;
+       }
+
+
+
+
+ .form-box2{
+  margin-left: 2rem;
+  padding-top: 3rem;
+  /* width: 70%; */
+  min-width: 50%;
+ }
+ .text-box{
+    padding-top:1rem;
+    width: 50%;
+    padding-bottom: 1rem;
+   }
+   textarea{
+    border-radius: 20px;
+    color: white;
+    background: transparent; 
+   }
+   .form2-child{
+    padding-top: 2rem;
+    border-bottom: 2px solid#999999;
+    width: 60%;
+   }
+   .form2{
+    width: 100%;
+   }
+   .pay-form2{
+    padding-top: 2rem;
+   }
+   .form2-child1{
+    padding-top: 1rem;
+   
+   }
+   a.one:link {
+    color:blue;
+  }
+  .form2-child2{
+    padding-top: 1rem;
+   }
+   .form2-child3{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    gap: 3rem;
+   }
+   .child3{
+    background-color: #56b35f;
+    border: none;
+    color: #eef8f4;
+    height: 1.5rem;
+    width:100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 1rem; 
+   }
+   .child4{
+    background-color: black;
+    border: none;
+    color: #eef8f4;
+    height: 1.5rem;
+    width:100%; 
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 1rem; 
+   }
+
+
+
+
+
+   input{
+    border-color: transparent; 
+    background: transparent;
+    color: white;
+  }
+  
+  input:focus{
+    outline: none;
+  }
+  select{
+    border-color: transparent;
+    background: transparent; 
+    color: #999999;
+  }
+  select:focus{
+    outline: none;
+  }
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
